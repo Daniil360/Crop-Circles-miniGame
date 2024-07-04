@@ -61,7 +61,7 @@ let circleWin = () => {
             blockItem[win[i][0]].classList.add('winColor')
             blockItem[win[i][1]].classList.add('winColor')
             blockItem[win[i][2]].classList.add('winColor')
-            winner = "Нулики"
+            winner = "Нолики"
             endGame(winner)
             return 1
         }
