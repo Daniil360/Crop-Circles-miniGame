@@ -8,7 +8,7 @@ const who =() => {
         spanWho.innerText = 'Крестики'
     } else {
         step = 'circle'
-        spanWho.innerText = 'Нулики'
+        spanWho.innerText = 'Нолики'
     }
 }
 
